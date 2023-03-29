@@ -33,8 +33,7 @@ To get more understanding of Django's request/response processing, here is a dia
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://learnbatta.com/assets/images/django/request_response_lifecycle_Django.png" alt="Django logo"></a>
-    <small>image from [learnbatta.com](https://learnbatta.com/)</small>
+ <img width=400px height=400px src="https://learnbatta.com/assets/images/django/request_response_lifecycle_Django.png" alt="Django logo"></a>
 </p>
 
 Here we can see the Django request/response cycle. The request is sent to the server, and the server processes the request and sends the response back to the client. The request is processed by the view, and the view returns the response. The response is processed by the template, and the template returns the final response to the client. And in the midst of this, the middleware is used to process the request and response.
